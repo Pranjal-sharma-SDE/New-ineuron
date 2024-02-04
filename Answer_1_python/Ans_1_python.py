@@ -9,6 +9,7 @@ def search_matrix(matrix, target):
     Returns:
         True if the target value is found in the matrix, False otherwise.
     """
+    
     if not matrix or not matrix[0]:
         return False
     
